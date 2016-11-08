@@ -1,0 +1,16 @@
+LDFLAG = -g
+TARGET = double_array 
+OBJECT = double_array.o
+SOURCE = double_array.s
+
+all : $(TARGET)
+
+$(TARGET) : $(OBJECT)
+	gcc -o $@ $+ $(LDFLAG)
+
+$(OBJECT) : $(SOURCE)
+	as -o $@ $< $(LDFLAG)
+
+clean:
+	rm -vf $(TARGET) $(OBJECT) 
+

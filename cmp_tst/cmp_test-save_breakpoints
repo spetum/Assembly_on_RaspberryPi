@@ -1,0 +1,9 @@
+break /home/pi/myWorks/Assembly_on_RaspberryPi/cmp_tst/cmp_test.s:7
+break /home/pi/myWorks/Assembly_on_RaspberryPi/cmp_tst/cmp_test.s:8
+break /home/pi/myWorks/Assembly_on_RaspberryPi/cmp_tst/cmp_test.s:11
+break /home/pi/myWorks/Assembly_on_RaspberryPi/cmp_tst/cmp_test.s:12
+break /home/pi/myWorks/Assembly_on_RaspberryPi/cmp_tst/cmp_test.s:12
+break /home/pi/myWorks/Assembly_on_RaspberryPi/cmp_tst/cmp_test.s:17
+break /home/pi/myWorks/Assembly_on_RaspberryPi/cmp_tst/cmp_test.s:19
+break /home/pi/myWorks/Assembly_on_RaspberryPi/cmp_tst/cmp_test.s:30
+break /home/pi/myWorks/Assembly_on_RaspberryPi/cmp_tst/cmp_test.s:36

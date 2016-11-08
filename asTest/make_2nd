@@ -1,0 +1,12 @@
+LDFLAG = -g
+all: second
+
+second: second.o
+	gcc -o $@ $+ $(LDFLAG)
+
+second.o: second.s
+	as -o $@ $< $(LDFLAG)
+
+clean:
+	rm -vf second second.o
+

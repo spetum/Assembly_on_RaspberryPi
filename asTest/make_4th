@@ -1,0 +1,16 @@
+LDFLAG = -g
+TARGET = passing_arguments_by_value 
+OBJECT = passing_arguments_by_value.o
+SOURCE = passing_arguments_by_value.s
+
+all : $(TARGET)
+
+$(TARGET) : $(OBJECT)
+	gcc -o $@ $+ $(LDFLAG)
+
+$(OBJECT) : $(SOURCE)
+	as -o $@ $< $(LDFLAG)
+
+clean:
+	rm -vf $(TARGET) $(OBJECT) 
+
