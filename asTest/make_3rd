@@ -1,0 +1,12 @@
+LDFLAG = -g
+all: third
+
+third: third.o
+	gcc -o $@ $+ $(LDFLAG)
+
+third.o: third.s
+	as -o $@ $< $(LDFLAG)
+
+clean:
+	rm -vf third third.o
+
